@@ -24,7 +24,7 @@
 import React from 'react';
 import './App.css';
 
-import logo from './logo.svg';
+//import logo from './logo.svg';
 
 import BlocklyComponent, { Block, Value, Field, Shadow } from './Blockly';
 
@@ -49,9 +49,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <button onClick={this.generateCode}>Convert</button>
+        <header className="App-header">         
           <BlocklyComponent ref={this.simpleWorkspace}
           readOnly={false} trashcan={true} media={'media/'}
           move={{
