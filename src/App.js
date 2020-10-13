@@ -52,7 +52,7 @@ class App extends React.Component {
         <header className="App-header"> 
         <h1>MakerBlocks</h1>        
           <BlocklyComponent ref={this.simpleWorkspace}
-          readOnly={false} trashcan={true} media={'media/'}
+          readOnly={false} trashcan={true} media={'../media/'}
           move={{
             scrollbars: true,
             drag: true,
