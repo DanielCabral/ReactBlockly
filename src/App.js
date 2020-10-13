@@ -49,7 +49,8 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">         
+        <header className="App-header"> 
+        <h1>MakerBlocks</h1>        
           <BlocklyComponent ref={this.simpleWorkspace}
           readOnly={false} trashcan={true} media={'media/'}
           move={{
@@ -62,6 +63,7 @@ class App extends React.Component {
 <block type="controls_ifelse" x="0" y="0"></block>
 </xml>
       `}>
+
             <Block type="test_react_field" />
             <Block type="test_react_date_field" />
             <Block type="controls_ifelse" />
